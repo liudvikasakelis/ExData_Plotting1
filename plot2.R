@@ -12,6 +12,7 @@ edata$DateTime <- as.POSIXct(paste(edata$Date, edata$Time),
 
 png('plot2.png', width=480, height=480, bg='transparent')
 
-with(edata, plot(DateTime, Global_active_power, type='l', ))
+with(edata, plot(DateTime, Global_active_power, type='l', 
+                 ylab='Global active power (kilowatts)', xlab=''))
 
 dev.off()
