@@ -12,7 +12,7 @@ png('plot1.png', width=480, height=480, bg='transparent')
 hist(edata$Global_active_power, 
      main="Global Active Power",
      col='red',
-     xlab='Global Reactive Power (kWh)')
+     xlab='Global Active Power (kilowatts)')
 
 
 
